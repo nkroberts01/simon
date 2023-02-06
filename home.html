@@ -2,16 +2,15 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width", initial-scale="1.0" />
-        <title>About</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simon</title>
     </head>
 
     <body>
 
         <header>
             <h1>Simon<sup>&reg;</sup></h1>
-
             <nav>
                 <menu>
                     <li><a href="home.html">Home</a></li>
@@ -20,22 +19,19 @@
                     <li><a href="about.html">About</a></li>
                 </menu>
             </nav>
-
             <hr />
         </header>
 
         <main>
-            <p>
-                Simon is a repetitive memory game where you follow the demonstrated
-                color sequence until you make a mistake. The longer the sequence you
-                repeat, the greater your score.
-            </p>
+            <h1>Welcome</h1>
+            <p>Login to Play</p>
 
-            <p>
-                The name Simon is a registered trademark owned by Milton-Bradley. Our
-                use of the name and the game is for non-profit educational use only. No
-                part of this code or program should be used outside of that definition.
-            </p>
+            <form method="get" action="play.html">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" />
+                <button type="submit">Login</button>
+            </form>
+
         </main>
 
         <footer>
@@ -44,7 +40,7 @@
             <br />
             <a href="https://github.com/nkroberts01/simon.git">Github</a>
         </footer>
-        
+
     </body>
 
 </html>
